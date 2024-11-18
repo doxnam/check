@@ -34,8 +34,8 @@ jobs:
 
       # Commit và Push các thay đổi vào repository sử dụng actions-js/push
     - name: Commit & Push changes
-      uses: actions-js/push@main
+      uses: actions-js/push@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}  # Dùng GitHub token để thực hiện commit và push
-        author_name: your_username  # Thay 'your_username' bằng tên của bạn hoặc một tên khác
-        branch: main  # Đảm bảo rằng bạn commit lên nhánh 'main'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        author_name: doxnam
+        branch: main
