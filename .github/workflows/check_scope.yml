@@ -1,28 +1,30 @@
-name: Run Check Scope H1 Script
+name: Update and Notify
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # Chạy mỗi 60 phút
-  workflow_dispatch: # Cho phép chạy thủ công từ giao diện GitHub
+    - cron: "0 * * * *" # Chạy mỗi 10 phút
 
 jobs:
-  run-check-scope-h1:
+  auto-update:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    # Clone repository
+    - uses: actions/checkout@v3
 
+    # Thiết lập Python (sử dụng phiên bản ổn định và phổ biến)
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.10  # Thay đổi nếu cần phiên bản Python khác
+        python-version: "3.9"  # Thay đổi thành phiên bản ổn định có trong cache
 
+    # Cài đặt các thư viện cần thiết
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install python-telegram-bot requests
 
+    # Chạy script Python
     - name: Run Python script
       env:
         TELEGRAM_API_TOKEN: ${{ secrets.TELEGRAM_API_TOKEN }}
