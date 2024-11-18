@@ -3,31 +3,39 @@ name: Update and Notify
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *" # Chạy mỗi 10 phút
+    - cron: "0 * * * *"  # Chạy mỗi 1 tiếng
 
 jobs:
   auto-update:
     runs-on: ubuntu-latest
     steps:
-    # Clone repository
+      # Clone repository
     - uses: actions/checkout@v3
 
-    # Thiết lập Python (sử dụng phiên bản ổn định và phổ biến)
+      # Thiết lập Python (sử dụng phiên bản ổn định và phổ biến)
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: "3.9"  # Thay đổi thành phiên bản ổn định có trong cache
 
-    # Cài đặt các thư viện cần thiết
+      # Cài đặt các thư viện cần thiết
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install python-telegram-bot requests
 
-    # Chạy script Python
+      # Chạy script Python
     - name: Run Python script
       env:
         TELEGRAM_API_TOKEN: ${{ secrets.TELEGRAM_API_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
       run: |
         python check_scope_h1.py
+
+      # Commit và Push các thay đổi vào repository sử dụng actions-js/push
+    - name: Commit & Push changes
+      uses: actions-js/push@main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # Dùng GitHub token để thực hiện commit và push
+        author_name: your_username  # Thay 'your_username' bằng tên của bạn hoặc một tên khác
+        branch: main  # Đảm bảo rằng bạn commit lên nhánh 'main'
