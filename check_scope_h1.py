@@ -12,11 +12,13 @@ bot = Bot(token=TELEGRAM_API_TOKEN)
 DOMAIN_URL = "https://raw.githubusercontent.com/zricethezav/h1domains/refs/heads/master/domains_with_bounties.txt"
 SOURCE_CODE_URL = "https://raw.githubusercontent.com/zricethezav/h1domains/refs/heads/master/source_code_with_bounties.txt"
 
+
 # Hàm lấy nội dung từ URL
 def fetch_content(url):
     response = requests.get(url)
     response.raise_for_status()
     return set(response.text.splitlines())
+
 
 # Hàm kiểm tra sự khác biệt và gửi tin nhắn
 async def check_and_notify():
@@ -34,8 +36,12 @@ async def check_and_notify():
 
     if added_domains:
         updates.append(f"🆕 **New Domains Added:**\n" + "\n".join(added_domains))
-        with open(domain_file, "w") as f:
-            f.write("\n".join(new_domains))
+    else:
+        print("No new domains added.")
+
+    # Luôn cập nhật tệp old_domains_with_bounties.txt
+    with open(domain_file, "w") as f:
+        f.write("\n".join(new_domains))
 
     # Kiểm tra source_code_with_bounties.txt
     source_file = "old_source_code_with_bounties.txt"
@@ -49,13 +55,18 @@ async def check_and_notify():
 
     if added_sources:
         updates.append(f"🆕 **New Source Codes Added:**\n" + "\n".join(added_sources))
-        with open(source_file, "w") as f:
-            f.write("\n".join(new_sources))
+    else:
+        print("No new source codes added.")
+
+    # Luôn cập nhật tệp old_source_code_with_bounties.txt
+    with open(source_file, "w") as f:
+        f.write("\n".join(new_sources))
 
     # Gửi thông báo nếu có cập nhật
     if updates:
         message = "\n\n".join(updates)
         await bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="Markdown")
+
 
 # Hàm chính để chạy
 if __name__ == "__main__":
