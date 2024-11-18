@@ -2,7 +2,7 @@ name: Run Check Scope H1 Script
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # Chạy mỗi 10 phút
+    - cron: "0 * * * *" # Chạy mỗi 60 phút
   workflow_dispatch: # Cho phép chạy thủ công từ giao diện GitHub
 
 jobs:
