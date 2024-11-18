@@ -1,0 +1,31 @@
+name: Run Check Scope H1 Script
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # Chạy mỗi 10 phút
+  workflow_dispatch: # Cho phép chạy thủ công từ giao diện GitHub
+
+jobs:
+  run-check-scope-h1:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.10  # Thay đổi nếu cần phiên bản Python khác
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Python script
+      env:
+        TELEGRAM_API_TOKEN: ${{ secrets.TELEGRAM_API_TOKEN }}
+        CHAT_ID: ${{ secrets.CHAT_ID }}
+      run: |
+        python check_scope_h1.py
