@@ -67,20 +67,26 @@ async def check_and_notify():
         f.write("\n".join(new_sources))
 
     # Gửi cập nhật cho Domains
-    await send_updates(
-        bot=bot,
-        chat_id=CHAT_ID,
-        header="🆕 **New Domains Added:**",
-        updates=added_domains
-    )
+    if added_domains:
+        await send_updates(
+            bot=bot,
+            chat_id=CHAT_ID,
+            header="🆕 **New Domains Added:**",
+            updates=added_domains
+        )
+    else:
+        print("No new domains added.")
 
     # Gửi cập nhật cho Source Codes
-    await send_updates(
-        bot=bot,
-        chat_id=CHAT_ID,
-        header="🆕 **New Source Codes Added:**",
-        updates=added_sources
-    )
+    if added_sources:
+        await send_updates(
+            bot=bot,
+            chat_id=CHAT_ID,
+            header="🆕 **New Source Codes Added:**",
+            updates=added_sources
+        )
+    else:
+        print("No new source codes added.")
 
 # Hàm chính để chạy
 if __name__ == "__main__":
