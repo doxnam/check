@@ -11,7 +11,11 @@ bot = Bot(token=TELEGRAM_API_TOKEN)
 # URLs cần kiểm tra
 DOMAIN_URL = "https://raw.githubusercontent.com/zricethezav/h1domains/refs/heads/master/domains_with_bounties.txt"
 SOURCE_CODE_URL = "https://raw.githubusercontent.com/zricethezav/h1domains/refs/heads/master/source_code_with_bounties.txt"
+MAX_MESSAGE_LENGTH = 4096
 
+def split_message(message, max_length):
+    # Chia nội dung tin nhắn thành từng phần nhỏ hơn
+    return [message[i:i + max_length] for i in range(0, len(message), max_length)]
 
 # Hàm lấy nội dung từ URL
 def fetch_content(url):
@@ -65,7 +69,12 @@ async def check_and_notify():
     # Gửi thông báo nếu có cập nhật
     if updates:
         message = "\n\n".join(updates)
-        await bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="Markdown")
+        if len(message) > MAX_MESSAGE_LENGTH:
+            messages = split_message(message, MAX_MESSAGE_LENGTH)
+            for part in messages:
+                await bot.send_message(chat_id=CHAT_ID, text=part, parse_mode="Markdown")
+        else:
+            await bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="Markdown")
 
 
 # Hàm chính để chạy
