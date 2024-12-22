@@ -14,11 +14,13 @@ DOMAIN_URL = "https://raw.githubusercontent.com/zricethezav/h1domains/refs/heads
 SOURCE_CODE_URL = "https://raw.githubusercontent.com/zricethezav/h1domains/refs/heads/master/source_code_with_bounties.txt"
 MAX_LINES = 80  # Số dòng tối đa cho mỗi tin nhắn
 
+
 def fetch_content(url):
     """Lấy nội dung từ URL."""
     response = requests.get(url)
     response.raise_for_status()
     return set(response.text.splitlines())
+
 
 def load_old_content(file_path):
     """Tải nội dung từ tệp cũ."""
@@ -27,15 +29,23 @@ def load_old_content(file_path):
             return set(f.read().splitlines())
     return set()
 
-def save_content(file_path, content):
-    """Lưu nội dung mới vào tệp."""
-    with open(file_path, "w") as f:
-        f.write("\n".join(content))
+
+def append_new_content(file_path, new_content):
+    """Thêm nội dung mới vào tệp cũ."""
+    if os.path.exists(file_path):
+        with open(file_path, "a") as f:
+            for line in new_content:
+                f.write(f"{line}\n")
+    else:
+        with open(file_path, "w") as f:
+            f.write("\n".join(new_content) + "\n")
+
 
 def split_message_by_lines(message, max_lines):
     """Chia nội dung tin nhắn thành từng phần theo số dòng."""
     lines = message.split("\n")
     return ["\n".join(lines[i:i + max_lines]) for i in range(0, len(lines), max_lines)]
+
 
 async def send_updates(bot, chat_id, header, updates):
     """Gửi các bản cập nhật, xử lý ký tự đặc biệt và chia nhỏ theo dòng."""
@@ -49,6 +59,7 @@ async def send_updates(bot, chat_id, header, updates):
             escaped_part = escape_markdown(part, version=2)
             await bot.send_message(chat_id=chat_id, text=escaped_part, parse_mode="MarkdownV2")
 
+
 async def check_and_notify():
     # Kiểm tra domains_with_bounties.txt
     domain_file = "old_domains_with_bounties.txt"
@@ -56,8 +67,8 @@ async def check_and_notify():
     old_domains = load_old_content(domain_file)
     added_domains = new_domains - old_domains
 
-    # Cập nhật tệp cũ chỉ sau khi đã xử lý nội dung mới
-    save_content(domain_file, new_domains)
+    # Thêm các domain mới vào tệp cũ
+    append_new_content(domain_file, added_domains)
 
     # Gửi cập nhật cho Domains
     if added_domains:
@@ -76,8 +87,8 @@ async def check_and_notify():
     old_sources = load_old_content(source_file)
     added_sources = new_sources - old_sources
 
-    # Cập nhật tệp cũ chỉ sau khi đã xử lý nội dung mới
-    save_content(source_file, new_sources)
+    # Thêm các source code mới vào tệp cũ
+    append_new_content(source_file, added_sources)
 
     # Gửi cập nhật cho Source Codes
     if added_sources:
@@ -89,6 +100,7 @@ async def check_and_notify():
         )
     else:
         print("No new source codes added.")
+
 
 # Hàm chính để chạy
 if __name__ == "__main__":
