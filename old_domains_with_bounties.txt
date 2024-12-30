@@ -2260,3 +2260,16 @@ supply-xml.booking.com
 app.faraday.ai
 mobileapi.na1.insightly.com
 app.skinport.com
+
+www.starbucks.com.jo
+www.starbucks.co.ma
+www.starbucks.com.om
+www.starbucks.com.kw
+www.starbucks.com.kz
+www.starbucks.qa
+www.starbucks.sa
+www.starbucks.ae
+www.starbucks.com.bh
+www.starbucks.rs
+www.starbucks.com.lb
+www.starbucks.co.za
