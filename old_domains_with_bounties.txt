@@ -2259,17 +2259,4 @@ supply-xml.booking.com
 *.luckydays.ca
 app.faraday.ai
 mobileapi.na1.insightly.com
-app.skinport.comwww.starbucks.ae
-www.starbucks.rs
-www.starbucks.co.ma
-www.starbucks.qa
-www.starbucks.com.kw
-www.starbucks.com.kz
-www.starbucks.com.lb
-www.starbucks.com.jo
-www.starbucks.com.om
-www.starbucks.sa
-www.starbucks.com.bh
-www.starbucks.co.za
 app.skinport.com
-www.starbucks.ae
