@@ -34,6 +34,7 @@ def append_new_content(file_path, new_content):
     """Thêm nội dung mới vào tệp cũ."""
     if os.path.exists(file_path):
         with open(file_path, "a") as f:
+            f.write("\n")
             for line in new_content:
                 f.write(f"{line}\n")
     else:
