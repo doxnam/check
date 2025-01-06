@@ -2447,3 +2447,5 @@ www.starbucks.co.za
 *.edition.in
 *.district.in
 *.ticketnew.com
+
+*.tktnew.com
