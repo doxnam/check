@@ -2442,3 +2442,8 @@ www.starbucks.co.za
 
 
 
+
+*.insider.in
+*.edition.in
+*.district.in
+*.ticketnew.com
