@@ -3284,3 +3284,5 @@ signature-insights.api.cx.metamask.io
 
 
 portal.magicnewton.com
+
+www.rockstargames.com
