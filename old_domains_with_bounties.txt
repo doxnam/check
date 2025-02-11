@@ -3393,3 +3393,16 @@ hackerone-m1rtuq8orz.hbstaging.website
 
 photos.adobe.io
 
+
+sso.auth.toloka.ai
+tb.toloka.dev
+workspace.toloka.ai
+https://mindrift.ai/
+workspace.toloka.dev
+auth.toloka.ai
+mindrift.toloka.ai
+ladybug.a9s.toloka.ai
+https://we.toloka.ai/auth
+experts-portal.toloka.ai
+https://api-ui.toloka.ai
+https://toloka.ai/
