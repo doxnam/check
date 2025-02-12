@@ -3434,3 +3434,5 @@ api.spotify.com
 
 
 portfolio.ccpsx.com
+
+fonts.adobe.com
