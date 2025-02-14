@@ -3476,3 +3476,26 @@ www.hotwire.com
 
 
 
+
+http://heytapmobi.com
+https://open.oppomobile.com
+https://developers.oppomobile.com
+*.oppomobile.com
+http://oppofind.com
+community.coloros.com
+*.myoas.net
+*.oppo.com
+open.oppomobile.com
+*.wanyol.com
+*.coloros.com
+*.myoas.com
+oppomoble.com
+http://heytap.com
+oppo.com
+opposhop.cn
+https://e.oppo.com
+myoppo.com
+https://e.oppomobile.com
+https://e.heytap.com/
+nearme.com.cn
+http://coloros.com
