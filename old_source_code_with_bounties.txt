@@ -1403,3 +1403,12 @@ https://github.com/Agoric/agoric-sdk/tree/master/packages/zoe
 
 
 
+
+https://github.com/oasisprotocol/deoxysii-rust
+https://github.com/oasisprotocol/curve25519-voi
+https://github.com/oasisprotocol/oasis-wallet-web
+https://github.com/oasisprotocol/explorer
+https://github.com/oasisprotocol/oasis-sdk
+https://github.com/oasisprotocol/oasis-wallet-ext
+https://github.com/oasisprotocol/oasis-core
+https://github.com/oasisprotocol/deoxysii

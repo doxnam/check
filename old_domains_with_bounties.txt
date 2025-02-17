@@ -3568,3 +3568,10 @@ http://coloros.com
 
 
 
+
+wallet.oasis.io
+http://grpc.oasis.dev
+http://sapphire.oasis.io
+http://emerald.oasis.dev
+status.oasis.io
+http://rosetta.oasis.dev/api/mainnet
