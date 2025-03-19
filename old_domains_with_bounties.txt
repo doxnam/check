@@ -4321,3 +4321,10 @@ console.ort-one-pingone.com
 
 
 
+
+www.syfe.com
+uat-bugbounty.nonprod.syfe.com
+api-uat-bugbounty.nonprod.syfe.com
+mark8.syfe.com
+api.syfe.com
+alfred.syfe.com
