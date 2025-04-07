@@ -4767,3 +4767,6 @@ https://www.flipkart.com
 
 
 
+
+sandbox-royal.securegateway.com
+sandbox.securegateway.com
