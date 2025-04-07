@@ -4774,3 +4774,6 @@ sandbox.securegateway.com
 https://www.visa.com.az/az_az/account/registration
 
 api.s-kaupat.fi
+
+https://pay.payzippy.com
+https://uiscoop.payzippy.com
