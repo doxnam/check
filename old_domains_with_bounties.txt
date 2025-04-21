@@ -5106,3 +5106,27 @@ clinic.lemonaidhealth.com
 healthaid.lemonaidhealth.com
 lemonaidhealth.com
 
+
+bal-dev.nba.com
+2kleague-dev.nba.com
+bal-uat.nba.com
+br.nba.com
+www-uat.nba.com
+cl.nba.com
+gamenotes.nba.com
+www-dev.wnba.com
+gleague-qa.nba.com
+cares.nba.com
+coalition.nba.com
+2kleague-qa.nba.com
+bal-qa.nba.com
+www-qa.nba.com
+teamdirectory.nba.com
+www-ng.nba.com
+adb.nba.com
+grae.nba.com
+vth.nba.com
+www-dev.nba.com
+socialimpact.nba.com
+www-qa.wnba.com
+gleague-dev.nba.com
