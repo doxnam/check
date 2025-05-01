@@ -5343,3 +5343,7 @@ https://www.uma.money
 
 
 
+
+walletbot.me
+wallet.tg
+pay.wallet.tg
