@@ -5647,3 +5647,14 @@ publicsafety.ring.com
 
 
 
+
+*.hubspotpagebuilder.eu
+api.hubapi.com
+*.hubspotemail.net
+*.hs-sites(-eu1)?.com
+*.hubspotpagebuilder.com
+api.hubspot.com
+app-eu1.hubspot.com
+chatspot.ai
+connect.com
+app.hubspot.com
