@@ -5689,3 +5689,5 @@ app.hubspot.com
 
 
 
+
+*.ovofinansial.com
