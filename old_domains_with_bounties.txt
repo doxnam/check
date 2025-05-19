@@ -5786,3 +5786,5 @@ slingshot.finance
 
 
 
+
+*.cloud.mongodb.com/*
