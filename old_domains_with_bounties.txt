@@ -6011,3 +6011,11 @@ https://superbet.pl
 
 
 *.triplinkintl.com
+
+*.tyo-masters.co.jp
+*.flugladen.de
+app.blueskytravelvietnam.com
+*.budgetair.com
+trip.biz
+*.vayama.com
+*.vliegwinkel.nl
