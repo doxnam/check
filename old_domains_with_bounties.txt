@@ -6363,3 +6363,5 @@ reach.hostinger.com
 
 
 
+
+*.account.mongodb.com/*
