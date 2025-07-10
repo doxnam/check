@@ -6999,3 +6999,6 @@ sellingpilot.com
 *.iciparisxl.lu
 
 
+
+*.pns.hk
+*.marionnaud.sk
