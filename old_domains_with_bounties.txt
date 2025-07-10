@@ -6964,3 +6964,36 @@ sellingpilot.com
 
 
 
+
+*.marionnaud.it
+*.pns.com.hk
+*.marionnaud.sz
+*.drogas.lt
+*.kruidvat.be
+*.parknshop.com
+*.drogas.lv
+*.watsons.co.id
+*.marionnaud.ch
+*.superdrug.com
+*.theperfumeshop.com
+*.marionnaud.ro
+*.kruidvat.nl
+*.watsons.vn
+*.savers.co.uk
+*.iciparisxl.nl
+*.watsons.com.hk
+*.marionnaud.at
+*.watsons.com.ph
+*.watsons.com.my
+*.moneyback.com.hk
+*.iciparisxl.be
+*.fortress.com.hk
+*.marionnaud.fr
+*.watsons.com.tr
+*.marionnaud.hu
+*.watsons.com.sg
+*.watsons.com.tw
+*.marionnaud.cz
+*.trekpleister.nl
+*.watsons.co.th
+*.iciparisxl.lu
