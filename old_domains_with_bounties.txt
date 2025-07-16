@@ -7144,3 +7144,5 @@ https://safe.heytap.com/
 id.oppo.com
 
 
+
+*.bybit.eu
