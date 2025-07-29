@@ -7432,3 +7432,4 @@ mpa.ekyc.selfregister.m-pesa.com
 openapiportal.m-pesa.com
 mpa.ekyc.backoffice.m-pesa.com
 
+
