@@ -8138,3 +8138,4 @@ sparks-qa.wnba.com
 mystics-qa.wnba.com
 tempo.wnba.com
 aces-dev.wnba.com
+
