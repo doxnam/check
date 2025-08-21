@@ -8140,3 +8140,9 @@ tempo.wnba.com
 aces-dev.wnba.com
 
 
+
+www.visa.fr
+infinite.visa.fr
+my.visa.fr
+www.visamiddleeast.com
+*.visamiddleeast.com
