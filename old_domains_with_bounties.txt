@@ -8148,3 +8148,11 @@ www.visamiddleeast.com
 *.visamiddleeast.com
 
 
+
+http://auth.ripio.com
+https://app.ripio.com
+https://kyc.ripio.com/
+*ripiotrade.co
+app.ripio.com
+trade.ripio.com
+defi.ripio.com
