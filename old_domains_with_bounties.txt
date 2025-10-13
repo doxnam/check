@@ -9357,3 +9357,12 @@ oneview.threatdown.com
 
 
 
+
+klarnacdn.net
+pricerunner.com
+js.klarna.com
+klarna.com
+xs2a.banking.playground.klarna.com
+api.klarna.com
+portal.openbanking.playground.klarna.com
+klarna.net
