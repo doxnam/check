@@ -9366,3 +9366,4 @@ xs2a.banking.playground.klarna.com
 api.klarna.com
 portal.openbanking.playground.klarna.com
 klarna.net
+
