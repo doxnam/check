@@ -9428,3 +9428,5 @@ commercemarketplace.adobe.com
 
 
 
+
+*.pipopay.com
