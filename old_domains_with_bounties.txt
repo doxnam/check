@@ -9485,3 +9485,14 @@ diabrowser.com
 
 
 
+
+api.robinhood.com
+*.robinhood.net
+*.robinhood.com
+nummus.robinhood.com
+*.rhinternal.net
+cashier.robinhood.com
+*.say.rocks
+identi.robinhood.com
+minerva.robinhood.com
+*.saytechnologies.com
