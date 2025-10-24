@@ -9642,3 +9642,10 @@ esupplier.marriott.com
 
 
 
+
+efast.marriott.com
+*.dcfgateway.marriott.com
+*.mgs.marriott.com
+eidhelp.marriott.com
+*.gateway.marriott.com
+apcgateway.marriott.com
