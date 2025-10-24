@@ -9650,3 +9650,7 @@ eidhelp.marriott.com
 *.gateway.marriott.com
 apcgateway.marriott.com
 
+
+*.apigatewayc.marriott.com
+*.artifactory.marriott.com
+*.apigwc.marriott.com
