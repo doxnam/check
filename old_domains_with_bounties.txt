@@ -9750,3 +9750,5 @@ join.marriott.com
 app-insiders.marriott.com
 university.marriott.com
 ocijlbex1prd.marriott.com
+
+wechat.api.marriott.com
