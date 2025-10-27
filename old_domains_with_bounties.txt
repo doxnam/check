@@ -9712,3 +9712,21 @@ apcgateway.marriott.com
 
 
 
+
+vacation.marriott.com
+moments.marriott.com
+contentportalauth.marriott.com
+bsp.marriott.com
+channel-portal.homes-and-villas.marriott.com
+device.marriott.com
+bpa2.marriott.com
+*.web3factory.consensys.net
+www.giving.marriott.com
+www.members.marriott.com
+*.sba.marriott.com
+contentportal.marriott.com
+splunk-phantom-nlb.marriott.com
+auth-apc.marriott.com
+ci-propertyconversionportal.marriott.com
+smetrics.marriott.com
+cache.marriott.com
