@@ -10161,3 +10161,6 @@ mail.notion.so
 
 
 
+
+*.tiktokcdn.com
+*.tiktokpublishers.com
