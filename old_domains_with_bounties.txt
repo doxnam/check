@@ -10329,3 +10329,12 @@ https://www.whosampled.com/
 
 
 
+
+developer.grammarly.com
+gateway.superhuman.com
+settings.superhuman.com
+goldengate.grammarly.com
+id.superhuman.com
+tokens.grammarly.com
+*.superhuman.com
+auth.grammarly.com
