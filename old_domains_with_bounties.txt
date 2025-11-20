@@ -10338,3 +10338,5 @@ id.superhuman.com
 tokens.grammarly.com
 *.superhuman.com
 auth.grammarly.com
+
+status.coda.io
