@@ -11561,3 +11561,4 @@ www3.acesso.io
 *.cadastro.uat.unico.app
 idpay.unico.io
 transactions.transactional.unico.app
+
