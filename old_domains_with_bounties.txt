@@ -11549,3 +11549,15 @@ https://fn-commerce-live.eeef.live.use1a.on.epicgames.com/api/fn-commerce/
 https://fngw-svc-ds-livefn.ol.epicgames.net/api/magpie
 
 
+
+*.unico.io
+*.acesso.io
+identity.acesso.io
+backend-sdk.prod.private.unico.run
+www2.acesso.io
+www4.acesso.io
+api.id.unico.app
+www3.acesso.io
+*.cadastro.uat.unico.app
+idpay.unico.io
+transactions.transactional.unico.app
