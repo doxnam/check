@@ -11581,3 +11581,10 @@ template.uat.foodstorm.com
 
 
 
+
+crediariohomolog.acesso.io
+*.uat.unico.app
+backend-sdk.uat.private.unico.run
+accountshomolog.acesso.io
+identityhomolog.acesso.io
+signhom.acesso.io
