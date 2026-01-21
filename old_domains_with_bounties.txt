@@ -11764,3 +11764,5 @@ mc.sendgrid.com
 http://twilio.com/blog
 signup.sendgrid.com
 
+
+*.tvg.com
