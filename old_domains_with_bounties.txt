@@ -11750,3 +11750,16 @@ devcenter.unico.io
 
 
 
+
+sendgrid.com
+https://segment.com/docs/connections/sources/
+app.sendgrid.com
+https://www.twilio.com/login?g=%2fconsole%3f&t=2b1c98334b25c1a785ef15b6556396290e3c704a9b57fc40687cbccd79c46a8c
+http://tsock.us1.twilio.com
+app.segment.com
+api.sendgrid.com
+http://help.twilio.com
+mc.sendgrid.com
+*.sip.*.twilio.com
+http://twilio.com/blog
+signup.sendgrid.com
