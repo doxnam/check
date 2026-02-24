@@ -12429,3 +12429,29 @@ grokipedia.com
 
 
 
+
+*.kibana.wtf
+*.theelasticast.com
+*.elasticsearch.wtf
+*.elasticapm.co
+*.logstash.net
+*.elastic.wtf
+*.elasticsearch.fr
+*.elasticbeats.wtf
+*.elasticloud.wtf
+*.es.io
+*.elasticon.com
+*.elasticacademy.com
+*.elasticaccelerationzone.co
+*.elasticsearch.jp
+*.insight.io
+*.elasticgov.com
+*.logstash.wtf
+*.elasticsearch.com
+*.elasticcloud.wtf
+*.elasticps.co
+*.elasticpartneracademy.com
+*.estccdn.com
+*.elasticon.co
+*.elasticsearch.org
+*.prelert.com
