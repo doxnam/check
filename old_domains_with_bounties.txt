@@ -13026,3 +13026,41 @@ https://www.coloros.com/
 
 
 
+
+*.aleenote.cn
+*.miinsurtech.com
+*.mi.cn
+*.baoliyun.com
+*.xiangkannews.cn
+*.oktukids.com
+*.mipay.com
+*.mioffice.cn
+*.airstar-finance.com
+*.xiaomiev.com
+*.xiaomi.org
+*.miui.cn
+*.mipay.net
+*.aleenote.com
+*.xiangkankeji.cn
+*.xiaomiwear.com
+*.xunkid.com
+*.airstar.com
+*.miinsurtech.net
+*.xiaomi.net
+*.miot-spec.org
+*.miinsurtech.cn
+*.youpin.cn
+*.airstarfinance.net
+*.hongyuanib.com
+*.wali.com
+*.xiangkankeji.com
+*.xiaomimobile.com
+*.openvela.com
+*.xunkids.com
+*.mifile.cn
+*.zmifi.com
+*.migames.com
+*.mios.cn
+*.xiaomiprint.com
+*.duokan.com
+*.mijiayoupin.com
