@@ -13599,3 +13599,38 @@ https://c.realme.com/eg/
 
 
 
+
+merchantsignage.visa.com
+info.cybersource.com
+https://bridge.ripio.com/
+vasdemos.visa.com
+cybersourcebouncebacks.visa.com
+*.prod.innovexperiments.com
+www.trialpay.com
+testbank.xs2a.com
+merchantsignageca.visa.com
+experience.prod.innovexperiments.com
+vgov.catalogue.digitalcontrolroom.com
+visaonchainanalytics.com
+info.authorize.net
+merchantsignageglobal.visa.com
+merchantsignageap.visa.com
+myvu.visauniversity.com
+sap.api-xperience.com
+vwcm.visa.com
+https://solutions.visaacceptance.com/subscription
+app.demand.cybersource.com
+visasgic.api-xperience.com
+visainnovationprogram.com
+garp.visa.com
+images.demand.cybersource.com
+dwy.visa.com
+merchantsignageeu.visa.com
+merchantsignagejp.visa.com
+codeofconduct.visa.com
+admin-portal.api-xperience.com
+askpeopleteam.visa.com
+capability.prod.innovexperiments.com
+vdam.visa.com
+developers.pismo.io
+api.prod.innovexperiments.com
