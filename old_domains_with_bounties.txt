@@ -14159,3 +14159,13 @@ sgnl.cloud
 
 
 
+
+*.mgbcareconnect.org
+*.northwellprimarycarenow.com
+*.novanthealthvirtualprimarycare.org
+*.csconnect.org
+*.hhc247.org
+*.khealth-test.com
+*.pennmedicine.connect-visit.com
+*.hmh247.org
+*.primarycareondemand.mayoclinic.org
