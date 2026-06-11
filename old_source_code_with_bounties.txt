@@ -10946,3 +10946,5 @@ https://github.com/anthropics
 
 
 
+
+https://www.npmjs.com/package/@airtable/mcp-cli
