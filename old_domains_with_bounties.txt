@@ -14448,3 +14448,17 @@ app.basecamp.com
 
 
 
+
+www.23andme.org
+style.23andme.org
+http://ibt-test.six-group.com
+23andme.org/media-center
+app.codacy.com
+ads.temu.com
+23andme.org/blog
+23andme.org/clinicians
+store.23andme.org
+api.codacy.com
+23andme.org/education
+23andme.org/research
+23andme.org/ancestry/last-names
