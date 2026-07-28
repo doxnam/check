@@ -14759,3 +14759,12 @@ southbay-dev.gleague.nba.com
 
 
 
+
+merchant.wolt.com
+corporate.wolt.com
+*.wolt.com
+restaurant-api.wolt.com
+drive.wolt.com
+wolt.com
+ops.wolt.com
+authentication.wolt.com
