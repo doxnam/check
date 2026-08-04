@@ -14928,3 +14928,31 @@ api.paybox.sh
 
 
 
+
+exchange-server.exodus.io
+fiat-p.a.exodus.io
+fiat-prod-fallback.a.exodus.io
+dashboard-p.xoswap.com
+my.passkeys.network
+kyc.a.exodus.io
+exchange-server-p.exodus.io
+api-p.xoswap.com
+relay.passkeys.foundation
+xoswap-graphql-p.a.exodus.io
+xoswap-graphql.a.exodus.io
+fiat.a.exodus.io
+wallet.passkeys.foundation
+pay-admin.exodus.io
+login.exodus.com
+nexotrack-p.exodus.io
+passkeys.foundation
+turing.exodus.io
+api.passkeys.network
+http://exchange-server.exodus.io
+api.xoswap.com
+exchange-p.exodus.io
+embedded.passkeys.foundation
+ctr.a.exodus.io
+pay.exodus.io
+dashboard.xoswap.com
+nexotrack.exodus.io
