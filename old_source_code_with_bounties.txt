@@ -11465,3 +11465,11 @@ https://github.com/vercel/chat
 
 
 
+
+https://www.npmjs.com/package/@exodus/keychain
+https://www.npmjs.com/package/@exodus/safe-string
+https://www.npmjs.com/package/@exodus/errors
+https://github.com/ExodusOSS/hydra
+https://github.com/ExodusOSS/bytes
+https://www.npmjs.com/package/@exodus/sentry-client
+https://github.com/ExodusOSS/crypto
