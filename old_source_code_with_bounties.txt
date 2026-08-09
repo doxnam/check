@@ -11508,3 +11508,6 @@ https://github.com/ExodusOSS/crypto
 
 
 
+
+https://github.com/coinbase/*
+https://github.com/base/*
