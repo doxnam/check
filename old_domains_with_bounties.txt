@@ -15089,3 +15089,8 @@ notes.services.box.com
 
 
 
+
+*.klarnacdn.net
+*.klarna.com
+*.klarna.net
+*.pricerunner.com
