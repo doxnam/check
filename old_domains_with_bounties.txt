@@ -15565,3 +15565,22 @@ www.semrush.com
 
 
 
+
+www.tiqets.com
+*.expediaagents.com
+*.bookabach.co.nz
+www.expediapartnercentral.com
+*.tiqets.com
+*.ean.com
+*.flights.com
+*.orbitz.com
+*.abritel.fr
+*.expediagroup.com
+*.stayz.com.au
+*.expedia.com
+*.hotwirepartnercentral.com
+*.expediapartnersolutions.com
+www.expediacruises.com
+*.fewo-direkt.de
+*.hotels.com
+*.expedia-aarp.com
