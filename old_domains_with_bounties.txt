@@ -15667,3 +15667,10 @@ hostinger.com
 
 
 
+
+*.vercel.com
+v0.app
+v0.dev
+vercel.com
+*.vercel.live
+vercel.app
