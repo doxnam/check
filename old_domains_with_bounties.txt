@@ -16065,3 +16065,12 @@ plata.co
 
 
 
+
+https://aoa-ws-direct.earlywarning.com/aoainquiryservice/services/aoainquiryservice
+https://aoa-ws.earlywarning.com/aoainquiryservice/services/aoainquiryservice
+accountinfodirect.earlywarning.com
+https://aoa-ws-direct-snd.earlywarning.com/aoainquiryservice/services/aoainquiryservice
+aoa-ws-fis.earlywarning.com
+inquirydirect.earlywarning.com
+https://accountinfo.earlywarning.com
+accountinfodirect-snd.earlywarning.com
